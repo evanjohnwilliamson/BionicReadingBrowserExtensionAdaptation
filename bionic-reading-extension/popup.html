@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 300px;
+        height: 200px;
+      }
+      #enableButton,
+      #disableButton {
+        display: none;
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+        cursor: pointer;
+        text-align: center;
+        margin: 5px 0;
+      }
+      #enableButton {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+      }
+      #disableButton {
+        background-color: #f44336;
+        color: white;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bionic Reading Extension</h1>
+    <p>Click the button to enable or disable bionic reading.</p>
+    <button id="enableButton">Enable Bionic Reading</button>
+    <button id="disableButton">Disable Bionic Reading</button>
+    <p>When enabled, highlight the text you want to transform into bionic reading.</p>
+    <script src="popup.js"></script>
+  </body>
+</html>
